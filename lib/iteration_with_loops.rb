@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
   #minimum = src[row_index].min
   row_index = 0
   
-  while  < src.length do
+  while row_index< src.count do
     element_index = 0 
     while element_index < src.length do
       sort = src[count].sort
@@ -19,7 +19,7 @@ def find_min_in_nested_arrays(src)
   end
   def find_even_values(src)
   row_index = 0
-  
+  """
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
@@ -30,7 +30,8 @@ def find_min_in_nested_arrays(src)
     end
     row_index += 1
   end
-end
+
+  """
     #while element_index < src.length do 
     #  row.sort
     #  if src[row_index][element_index] > minimum
