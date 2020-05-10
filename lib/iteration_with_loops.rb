@@ -18,20 +18,7 @@ def find_min_in_nested_arrays(src)
     outer_results << final
     count += 1
   end
-
-
-    #while element_index < src.length do 
-    #  row.sort
-    #  if src[row_index][element_index] > minimum
-    #    minimum = src[row_index][element_index]
-    #  end
-    #  element_index += 1
-#    end
-#  final_results << minimum
-#  row_index += 1
-#  end
-
-puts outer_results
+outer_results
 end
 
 array_of_daily_temperatures = [
