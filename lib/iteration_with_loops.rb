@@ -15,6 +15,7 @@ def find_min_in_nested_arrays(src)
       final = sort[row_index][element_index]
       inner_count += 1
     end
+    outer_results << final
     count += 1
   end
 
