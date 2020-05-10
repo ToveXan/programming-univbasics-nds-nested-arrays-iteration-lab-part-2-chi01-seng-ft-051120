@@ -1,22 +1,36 @@
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
   # Produce a new Array that contains the smallest number of each of the nested arrays
- outer_results = []
+  outer_results = []
   row_index = 0 
   #while row_index < src.count do
   #element_index = 0
   #minimum = src[row_index].min
-  count = 0
-  while count < src.length do
-    inner_count = 0 
-    while count[row_index] < src.length do
+  row_index = 0
+  
+  while  < src.length do
+    element_index = 0 
+    while element_index < src.length do
       sort = src[count].sort
       outer_results << sort[count][inner_count]
       inner_count += 1
     end
     count += 1
   end
+  def find_even_values(src)
+  row_index = 0
   
+  while row_index < src.count do
+    element_index = 0
+    while element_index < src[row_index].count do
+      if src[row_index][element_index].even?
+        p src[row_index][element_index]
+      end
+      element_index += 1
+    end
+    row_index += 1
+  end
+end
     #while element_index < src.length do 
     #  row.sort
     #  if src[row_index][element_index] > minimum
